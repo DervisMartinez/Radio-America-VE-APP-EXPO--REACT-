@@ -1,0 +1,67 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}"
+  ],
+  presets: [require("nativewind/preset")],
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary": "#422c00",
+        "surface-container-lowest": "#0e0e0f",
+        "on-secondary-fixed": "#301400",
+        "inverse-on-surface": "#313031",
+        "secondary-fixed-dim": "#ffb783",
+        "primary": "#ffb3ad",
+        "on-tertiary-container": "#ffe7c4",
+        "on-surface-variant": "#e1bebb",
+        "secondary-container": "#ef7c00",
+        "error": "#ffb4ab",
+        "surface-container-low": "#1c1b1c",
+        "on-background": "#e5e2e3",
+        "on-surface": "#e5e2e3",
+        "on-secondary-container": "#532700",
+        "on-secondary": "#4f2500",
+        "surface-container-high": "#2a2a2b",
+        "on-primary-fixed": "#410004",
+        "on-error-container": "#ffdad6",
+        "outline-variant": "#59413f",
+        "error-container": "#93000a",
+        "on-primary": "#68000a",
+        "secondary-fixed": "#ffdcc5",
+        "on-primary-container": "#ffe4e1",
+        "on-error": "#690005",
+        "primary-container": "#c13535",
+        "secondary": "#ffb783",
+        "primary-fixed": "#ffdad7",
+        "tertiary-container": "#8b6200",
+        "outline": "#a88987",
+        "surface-container-highest": "#353436",
+        "on-secondary-fixed-variant": "#703700",
+        "primary-fixed-dim": "#ffb3ad",
+        "inverse-surface": "#e5e2e3",
+        "surface-bright": "#39393a",
+        "surface": "#131314",
+        "surface-dim": "#131314",
+        "inverse-primary": "#b22a2c",
+        "background": "#131314",
+        "tertiary-fixed-dim": "#ffba29",
+        "surface-container": "#201f20",
+        "tertiary": "#ffba29",
+        "on-primary-fixed-variant": "#900d17",
+        "on-tertiary-fixed": "#271900",
+        "on-tertiary-fixed-variant": "#5f4100",
+        "surface-tint": "#ffb3ad",
+        "surface-variant": "#353436",
+        "tertiary-fixed": "#ffdea9"
+      },
+      fontFamily: {
+        headline: ["Montserrat", "sans-serif"],
+        display: ["Montserrat", "sans-serif"],
+        body: ["Montserrat", "sans-serif"],
+        label: ["Montserrat", "sans-serif"]
+      }
+    },
+  },
+  plugins: [],
+};
